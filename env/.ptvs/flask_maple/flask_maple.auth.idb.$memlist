@@ -1,0 +1,9 @@
+LoginBaseView
+RegisterBaseView
+views
+Auth
+forms
+ConfirmTokenBaseView
+models
+LogoutBaseView
+ConfirmBaseView

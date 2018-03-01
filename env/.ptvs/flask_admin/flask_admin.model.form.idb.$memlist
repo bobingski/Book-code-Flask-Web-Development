@@ -1,0 +1,16 @@
+create_editable_list_form
+iteritems
+ModelConverterBase
+InputRequired
+InlineModelConverterBase
+HiddenField
+UnboundField
+BaseForm
+converts
+inspect
+warnings
+InlineFormAdmin
+rules
+XEditableWidget
+FieldPlaceholder
+InlineBaseFormAdmin

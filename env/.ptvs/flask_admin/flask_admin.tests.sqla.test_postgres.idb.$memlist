@@ -1,0 +1,8 @@
+CustomModelView
+test_hstore
+ok_
+eq_
+JSON
+HSTORE
+test_json
+setup_postgres

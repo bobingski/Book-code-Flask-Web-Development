@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{c194bbdc-2257-4873-ba8f-c1e18cf18143}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>config.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{210a4257-7166-4f3c-8acd-e1ab975e0351}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="app\static\favicon.ico" />
+    <Content Include="app\static\styles.css" />
+    <Content Include="app\templates\404.html" />
+    <Content Include="app\templates\auth\email\confirm.html" />
+    <Content Include="app\templates\auth\email\confirm.txt" />
+    <Content Include="app\templates\auth\login.html" />
+    <Content Include="app\templates\auth\register.html" />
+    <Content Include="app\templates\auth\unconfirmed.html" />
+    <Content Include="app\templates\base.html" />
+    <Content Include="app\templates\edit_post.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="app\templates\edit_profile.html" />
+    <Content Include="app\templates\followers.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="app\templates\index.html" />
+    <Content Include="app\templates\login.html" />
+    <Content Include="app\templates\mail\new_user.html" />
+    <Content Include="app\templates\mail\new_user.txt" />
+    <Content Include="app\templates\moderate.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="app\templates\post.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="app\templates\user.html" />
+    <Content Include="app\templates\_comments.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="app\templates\_macros.html" />
+    <Content Include="app\templates\_posts.html" />
+    <Content Include="Flask_Maple.egg-info\dependency_links.txt" />
+    <Content Include="Flask_Maple.egg-info\requires.txt" />
+    <Content Include="Flask_Maple.egg-info\SOURCES.txt" />
+    <Content Include="Flask_Maple.egg-info\top_level.txt" />
+    <Content Include="migrations\alembic.ini" />
+    <Content Include="requirements.txt" />
+    <Content Include="requirements\common.txt" />
+    <Content Include="requirements\dev.txt" />
+    <Content Include="requirements\prod.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="app\api_1_0\authentication.py" />
+    <Compile Include="app\api_1_0\comment.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\api_1_0\decorators.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\api_1_0\errors.py" />
+    <Compile Include="app\api_1_0\post.py" />
+    <Compile Include="app\api_1_0\user.py" />
+    <Compile Include="app\api_1_0\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\auth\forms.py" />
+    <Compile Include="app\auth\views.py" />
+    <Compile Include="app\auth\__init__.py" />
+    <Compile Include="app\decorators.py" />
+    <Compile Include="app\email.py" />
+    <Compile Include="app\exceptions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\main\errors.py" />
+    <Compile Include="app\main\forms.py" />
+    <Compile Include="app\main\views.py" />
+    <Compile Include="app\main\__init__.py" />
+    <Compile Include="app\models.py" />
+    <Compile Include="app\__init__.py" />
+    <Compile Include="config.py" />
+    <Compile Include="hello.py" />
+    <Compile Include="manage.py" />
+    <Compile Include="migrations\env.py" />
+    <Compile Include="migrations\versions\347a34b35964_.py" />
+    <Compile Include="migrations\versions\43ca016e520e_.py" />
+    <Compile Include="migrations\versions\a8fee4738ce4_.py" />
+    <Compile Include="migrations\versions\fa6b6725c484_.py" />
+    <Compile Include="tests\test_basics.py" />
+    <Compile Include="tests\test_user_model.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app" />
+    <Folder Include="app\auth" />
+    <Folder Include="app\main" />
+    <Folder Include="app\api_1_0\" />
+    <Folder Include="app\static" />
+    <Folder Include="app\templates" />
+    <Folder Include="app\templates\auth" />
+    <Folder Include="app\templates\auth\email" />
+    <Folder Include="app\templates\mail" />
+    <Folder Include="Flask_Maple.egg-info" />
+    <Folder Include="migrations" />
+    <Folder Include="migrations\versions" />
+    <Folder Include="requirements" />
+    <Folder Include="tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>{210a4257-7166-4f3c-8acd-e1ab975e0351}</Id>
+      <BaseInterpreter>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</BaseInterpreter>
+      <Version>3.5</Version>
+      <Description>env (Python 3.5)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <LibraryPath>Lib\</LibraryPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X86</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
