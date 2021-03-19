@@ -17,7 +17,7 @@ Flask-WTF==0.13.1
 gevent==1.1.2
 gunicorn==19.6.0
 itsdangerous==0.24
-Jinja2==2.8
+Jinja2==2.11.3
 jsmin==2.2.1
 Pillow==3.4.2
 psycopg2==2.6.2
