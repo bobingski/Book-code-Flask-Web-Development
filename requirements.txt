@@ -38,7 +38,7 @@ Flask-Moment==0.6.0
 Flask-PageDown==0.2.2
 greenlet==0.4.13
 html5lib==0.9999999
-httpie==0.9.9
+httpie==3.1.0
 idna==2.6
 Mako==1.0.7
 Markdown==2.6.11
