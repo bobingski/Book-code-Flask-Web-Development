@@ -37,7 +37,7 @@ Flask-Migrate==2.1.1
 Flask-Moment==0.6.0
 Flask-PageDown==0.2.2
 greenlet==0.4.13
-html5lib==0.9999999
+html5lib==0.99999999
 httpie==0.9.9
 idna==2.6
 Mako==1.0.7
