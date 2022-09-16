@@ -40,7 +40,7 @@ greenlet==0.4.13
 html5lib==0.9999999
 httpie==0.9.9
 idna==2.6
-Mako==1.0.7
+Mako==1.2.2
 Markdown==2.6.11
 MarkupSafe==1.0
 misaka==2.1.0
